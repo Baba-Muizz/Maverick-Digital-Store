@@ -51,3 +51,49 @@
   padding: 1rem;
   font-size: 1.5rem;
 }
+.products-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.card{
+  position: relative;
+  height: 15rem;
+  width: 15rem;
+  margin-top: 30px;
+  background-color: #95b3bc;
+  border-radius: 8px;
+}
+.card button{
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 5px;
+}
+.cart{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #3cef63;
+  font-size: 2rem;
+}
+.love{
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  color: #3cef63;
+  font-size: 2rem;
+}
+.card img{
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  width: 40px;
+  height 40px;
+}
