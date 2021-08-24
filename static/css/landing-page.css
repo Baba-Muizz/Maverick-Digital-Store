@@ -7,11 +7,11 @@
 .top-main{
   margin: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .top-main img{
-  width: 200px;
-  height: 200px;
+  width: 16rem;
+  height: 16rem;
 }
 .messages{
   line-height: 2.0;
@@ -28,4 +28,26 @@
   text-decoration: none;
   color: #fff;
   padding: 10px;
+  font-size: 20px;
+}
+
+/*AD SECTION */
+.Ad-section{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+}
+.Ad-section img{
+  width: 14rem;
+  height: 12rem;
+}
+
+/* FEATURED PRODUCTS */
+.featured-products .topic-txt{
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
