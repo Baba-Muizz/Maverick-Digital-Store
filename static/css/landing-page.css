@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.top-main{
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-main img{
+  width: 200px;
+  height: 200px;
+}
+.messages{
+  line-height: 2.0;
+}
+
+.messages .button{
+  font-size: 20px;
+  background-color: #7ADFFF;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.button a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
